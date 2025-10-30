@@ -1,0 +1,15 @@
+{
+    "model": {
+        "start_timestamp": "2025-05-08 08:00:00",
+        "end_timestamp": "2025-05-08 12:00:00"
+    },
+    "ekf": {
+        "start_timestamp": "2025-05-08 08:00:00",
+        "end_timestamp": "2025-05-08 12:00:00"
+    },
+    "nmpc": {
+        "start_timestamp": "2025-05-08 12:00:00",
+        "end_timestamp": "2025-05-11 00:00:00",
+        "control_interval": 6
+    }
+}
