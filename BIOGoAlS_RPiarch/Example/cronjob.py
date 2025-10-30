@@ -20,7 +20,7 @@ sys.path.insert(0, '...') #Add the path to the 'preprocess_meas.py'
 from preprocess_meas import main as preprocess_main
 from sample_df import *
 from process_parameters import*
-from Real.toy_structure.controller import main
+from controller import main
 #------------------------------------------------------------------------------------------------------------#
 # Preprocess measurement data
 # Change temporaily the directory to save results
