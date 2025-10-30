@@ -20,4 +20,4 @@ NOTE You can check which packages are already installed by running:
 ```conda list``` 
 
 Follow the instructions to setup the relay, creating another folder `/home/santiagogarciagen/RPI_Relay_Board`. 
-A subfolder of this called `python` can be used to place the python files that set the PWM of the actuators (e.g. pwm_set_R1.py).
+A subfolder of the latter, called `python`, can be used to place the python files that set the PWM of the actuators (e.g. pwm_set_R1.py).
