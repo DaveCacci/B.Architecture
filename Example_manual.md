@@ -5,10 +5,10 @@ For internal usage at Universidad Tecnica Federico Santa Maria only.
 The "connections" between the files, the "blood" of this very simple controller structure is the use of "Timestamp" column in dataframes and files, correctly formatted. 
 # ----------------------------------------------------------------------------------- #
 
-## TO BE RUN FROM TERMINAL (in the "...\BIOGoAlS_twin\Example\awite" directory): ##
+## TO BE RUN FROM TERMINAL (in the "...\Example\awite" directory): ##
 - "modbus3.py"
 - "pwm_set_R1.py"
-## TO BE RUN WITH CRONJOB EVERY HH AT HH:01 (in the "...\BIOGoAlS_twin\Example" directory): ##
+## TO BE RUN WITH CRONJOB EVERY HH AT HH:01 (in the "...\Example" directory): ##
 -  "cronjob.py"
 # ----------------------------------------------------------------------------------- #
 
@@ -27,7 +27,7 @@ The "connections" between the files, the "blood" of this very simple controller 
 # ----------------------------------------------------------------------------------- #
 Example usage:
 To run an example with the provided data files: 
-- put the content of the BIOGoAlS_twin.zip folder into the desired path. The main cwd will be "yourpath\\BIOGoAlS_twin\\Example" (open terminals from here to subfolders, and add "yourpath\\BIOGoAlS_twin" inside the .py files where "..." is present).
+- put the content of the this repository into the desired path. The main cwd will be "yourpath\\Example" (open terminals from here to subfolders, and add "yourpath" inside the .py files where "..." is present).
 - modify system path to be added and specify eventual desired input/output folder path
 - modify row 46 of "preprocess_meas.py" with "now = datetime(2025,5,8,12,0)".
 - do the same in row 76 of "cronjob.py".

@@ -1,4 +1,4 @@
-# packages in environment at /home/davidecacci/miniforge3/envs/casadi:
+# packages in environment at /home/username/miniforge3/envs/casadi:
 #
 # Name                    Version                   Build  Channel
 _openmp_mutex             4.5                       2_gnu    conda-forge

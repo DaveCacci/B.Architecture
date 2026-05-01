@@ -164,3 +164,7 @@ cython_debug/
 
 #Subfolders
 Private/
+scp_copy_example_from_rpi.py
+scp_copy_example_to_rpi.py
+scp_copy_from_rpi.py
+scp_copy_to_rpi.py
