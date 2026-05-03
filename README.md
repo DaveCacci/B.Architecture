@@ -3,12 +3,12 @@
 
 ---
 
-**BIOGoAlS.Architecture** contains the code requried to run the *BIOGoAlS.Twin* controller on a RPi (OS is Raspbian ARM 64bit) equipped with [GPIO RPi Relay Board](https://www.waveshare.com/wiki/RPi_Relay_Board?srsltid=AfmBOor4FJiPsnnBRSH_AKAGjo-DzX5a6obdt5yUby4P_BXRnNl9piWJ) and a peristaltic pump, as it was done during the real-time control experiment carried out between 03-07/2025 at the BioTA lab (Unversidad Federico Santa Maria, Valparaiso, Chile).
+**BIOGoAlS.Architecture** contains the code requried to run the *BIOGoAlS.Twin* controller on a Raspberry RPi (OS is Raspbian ARM 64bit) equipped with (i) [GPIO RPi Relay Board](https://www.waveshare.com/wiki/RPi_Relay_Board?srsltid=AfmBOor4FJiPsnnBRSH_AKAGjo-DzX5a6obdt5yUby4P_BXRnNl9piWJ), (ii) a peristaltic pump, and (iii) a RJ45 connection between the [Awite biogas analyzer](https://www.awite.de/it/prodotti/analisi-del-gas/awiflex-awiflex-xl/) and the RPi (comumication via Modbus protocol), as it was done during the real-time control experiment carried out between 03-07/2025 at the BioTA lab (Unversidad Federico Santa Maria, Valparaiso, Chile).
 For further details about the test facility and equipment, please refer to the [author's PhD thesis](https://polimi365-my.sharepoint.com/:b:/g/personal/10530006_polimi_it/IQB6a8gdnsKrS50a3N5hU4S2AWG3RgSKr8Tnv2vfGtcwvEQ?e=lHCb4G).
 
 The tool:
 - pre-processes measurements from the Awite (biogas flow rate and composition);
-- computes a control action running a *controller.py*;
+- computes a control action running a `controller.py`;
 - sets the ON/OFF duty cycle of the GPIO relay board to activate/deactivate the power supply to the peristaltic pump;
 - recursively at each control interval (or even asynchronously when a new biogas composition measurement is available).
 
@@ -44,6 +44,7 @@ The tool:
 ---
 
 ### Notes
+- !! Note that the data of the biogas flow rate (e.g., measured by [Ritter counters](https://www.ritter.de/it/categoria-di-prodotto/milligascounters/)) must be transmitted from the counters to the Awite analyzer, before the information is sent to the RPi. You must contact the Awite support to do this step. 
 - Markdown links (`./folder/file`) are used for proper GitHub rendering.  
 - Python 3.10+ is required.
 - For further details, please refer also to the PhD thesis of the author (visit [POLItesi](https://www.politesi.polimi.it/) or request a copy to <davide.carecci@polimi.it>).
