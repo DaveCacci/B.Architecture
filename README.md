@@ -3,7 +3,7 @@
 
 ---
 
-**BIOGoAlS.Architecture** contains the code requried to run the *BIOGoAlS.Twin* controller on a Raspberry RPi (OS is Raspbian ARM 64bit) equipped with (i) [GPIO RPi Relay Board](https://www.waveshare.com/wiki/RPi_Relay_Board?srsltid=AfmBOor4FJiPsnnBRSH_AKAGjo-DzX5a6obdt5yUby4P_BXRnNl9piWJ), (ii) a peristaltic pump, and (iii) a RJ45 connection between the [Awite biogas analyzer](https://www.awite.de/it/prodotti/analisi-del-gas/awiflex-awiflex-xl/) and the RPi (comumication via Modbus protocol), as it was done during the real-time control experiment carried out between 03-07/2025 at the BioTA lab (Unversidad Federico Santa Maria, Valparaiso, Chile).
+**BIOGoAlS.Architecture** contains the code requried to run the *BIOGoAlS.Twin* controller on a Raspberry Pi (RPi; OS is Raspbian ARM 64bit) equipped with (i) [GPIO RPi Relay Board](https://www.waveshare.com/wiki/RPi_Relay_Board?srsltid=AfmBOor4FJiPsnnBRSH_AKAGjo-DzX5a6obdt5yUby4P_BXRnNl9piWJ), (ii) a peristaltic pump, and (iii) a RJ45 connection between the [Awite biogas analyzer](https://www.awite.de/it/prodotti/analisi-del-gas/awiflex-awiflex-xl/) and the RPi (comumication via Modbus protocol), as it was done during the real-time control experiment carried out between 03-07/2025 at the BioTA lab (Unversidad Federico Santa Maria, Valparaiso, Chile).
 For further details about the test facility and equipment, please refer to the [author's PhD thesis](https://polimi365-my.sharepoint.com/:b:/g/personal/10530006_polimi_it/IQB6a8gdnsKrS50a3N5hU4S2AWG3RgSKr8Tnv2vfGtcwvEQ?e=lHCb4G).
 
 The tool:
